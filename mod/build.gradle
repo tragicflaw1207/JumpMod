@@ -180,3 +180,8 @@ idea {
         downloadJavadoc = true
     }
 }
+
+jar {
+    archiveFileName = project.name + ".jar"
+    destinationDirectory.set(file("C:\\Users\\User\\AppData\\Roaming\\PrismLauncher\\instances\\1.21\\.minecraft\\mods"))
+}
